@@ -25,3 +25,17 @@
 .cart span:not(:first-child){
   border-left: 1px solid rgba(16, 16, 16, 0.5);
 }
+.cart:hover{
+  cursor: pointer;
+}
+.card-columns {
+  column-count: 2;
+}
+.card:last-child {
+  height: 727px;
+  width: auto;
+  overflow-y: hidden;
+}
+.card:last-child .card-img {
+  margin-top: -70px;
+}
