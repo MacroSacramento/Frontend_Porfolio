@@ -31,11 +31,3 @@
 .card-columns {
   column-count: 2;
 }
-.card:last-child {
-  height: 727px;
-  width: auto;
-  overflow-y: hidden;
-}
-.card:last-child .card-img {
-  margin-top: -70px;
-}
